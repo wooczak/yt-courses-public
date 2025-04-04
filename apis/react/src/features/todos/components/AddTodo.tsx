@@ -23,6 +23,7 @@ export default function AddTodo() {
         throw Error(error);
       }
 
+      console.info(`New todo added: ${newTodo}`);
       toast(`New todo added with title: ${newTodo?.title}`, {
         type: "success",
       });
