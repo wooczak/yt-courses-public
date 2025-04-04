@@ -8,5 +8,8 @@ const GET = {
   ALL_TODOS: `${URL}${querySuffix.TODOS}`,
 } as const;
 
-export { GET }
+const POST = {
+  NEW_TODO: `${URL}${querySuffix.TODOS}`
+} as const;
 
+export { GET, POST };
