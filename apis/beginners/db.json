@@ -1,0 +1,76 @@
+{
+  "authors": [
+    {
+      "id": 1,
+      "name": "Alice Smith",
+      "email": "alice@example.com",
+      "bio": "Frontend developer and coffee enthusiast.",
+      "avatar": "https://i.pravatar.cc/150?img=1"
+    },
+    {
+      "id": 2,
+      "name": "Ben Johnson",
+      "email": "ben@example.com",
+      "bio": "Tech blogger and aspiring full-stack developer.",
+      "avatar": "https://i.pravatar.cc/150?img=2"
+    },
+    {
+      "id": 3,
+      "name": "Carla Adams",
+      "email": "carla@example.com",
+      "bio": "Node.js lover and backend architect.",
+      "avatar": "https://i.pravatar.cc/150?img=3"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "Getting Started with React",
+      "content": "React makes it easy to build user interfaces by breaking them into components...",
+      "createdAt": "2024-12-01T10:15:00Z",
+      "updatedAt": "2024-12-01T10:15:00Z",
+      "authorId": 1,
+      "tags": [
+        "react",
+        "frontend",
+        "javascript"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Understanding JavaScript Closures",
+      "content": "Closures allow functions to access variables from an enclosing scope...",
+      "createdAt": "2025-01-05T12:30:00Z",
+      "updatedAt": "2025-01-07T08:20:00Z",
+      "authorId": 2,
+      "tags": [
+        "javascript",
+        "closures",
+        "fundamentals"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "REST vs GraphQL: A Practical Comparison",
+      "content": "Choosing between REST and GraphQL depends on the project requirements...",
+      "createdAt": "2025-02-11T09:00:00Z",
+      "updatedAt": "2025-02-11T09:00:00Z",
+      "authorId": 3,
+      "tags": [
+        "api",
+        "rest",
+        "graphql"
+      ]
+    },
+    {
+      "title": "New post",
+      "content": "New post content",
+      "id": 4
+    },
+    {
+      "title": "New post 2",
+      "content": "New content 2",
+      "id": 5
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript API</title>
+</head>
+<body>
+    <main>
+        <button id="fetch-data">
+            Fetch 
+        </button>
+        <form style="display: flex; flex-direction: column; gap: 0.5rem; width: 50%; margin-top: 1rem">
+            <label>New post title</label>
+            <input name="title" id="post-text" />
+            <label>New post content</label>
+            <input name="content" id="post-content" />
+            <button type="button" id="add-post-btn">Add new post</button>
+        </form>
+        <section id="results" />
+    </main>
+    <script type="module" src="./api.js"></script>
+</body>
+</html>
